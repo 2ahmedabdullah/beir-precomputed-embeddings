@@ -119,7 +119,7 @@ The BEIR Benchmark has been made possible due to a collaborative effort of the f
 ![Alternative Text for Image](./images/National-Institute-of-Standards-and-Technology-nist.jpg)
 
 
-![Alternative Text for Image](./images/buffalo.png)
+<img src="./images/buffalo.png" width="55%" alt="Alternative Text for Image">
 
 
 ## Contributors
