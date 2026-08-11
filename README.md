@@ -134,7 +134,7 @@ Thanks go to all these wonderful collaborations for their contribution towards t
     </td>
 
     <td align="center">
-      <a href="https://github.com/YOUR_GITHUB_USERNAME">
+      <a href="https://www.linkedin.com/in/madhukar-dwivedi-42748b145/">
         <img src="./images/madhukar.jpeg" width="120px" alt="Madhukar"/>
         <br />
         <sub><b>Madhukar Dwivedi</b></sub>
