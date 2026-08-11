@@ -1,9 +1,7 @@
-# beir-precomputed-embeddings
-
-![Alternative Text for Image](color_logo_transparent_cropped.png)
-
-
 # Precomputed BEIR Embeddings: BGE-Large & E5-Large
+
+![Alternative Text for Image](./images/color_logo_transparent_cropped.png)
+
 
 <p align="center">
     <a href="https://huggingface.co">
@@ -114,3 +112,34 @@ If you use these precomputed embeddings or reference our methodology, please cit
 2. Upload your `corpus_ids.json` and `corpus_embeddings.npy` files into folders matching the structure (`bge-large/<dataset>/` and `e5-large/<dataset>/`).
 3. Replace `"your-username/beir-precomputed-embeddings"` in the Python snippet with your actual repository ID!
 
+
+### Collaboration
+The BEIR Benchmark has been made possible due to a collaborative effort of the following universities and organizations:
+
+![Alternative Text for Image](./images/National-Institute-of-Standards-and-Technology-nist.jpg)
+![Alternative Text for Image](./images/University_at_Buffalo_logo.png)
+
+### Contributors
+
+Thanks go to all these wonderful collaborations for their contribution towards the BEIR benchmark:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/2ahmedabdullah">
+        <img src="./images/abdul.jpeg" width="120px;" alt="Abdul"/>
+        <br />
+        <sub><b>Abdul Ahmed</b></sub>
+      </a>
+    </td>
+
+   
+    <td align="center">
+      <a href="https://github.com/david">
+        <img src="./images/madhukar.jpeg" width="120px;" alt="Madhukar"/>
+        <br />
+        <sub><b>Madhukar Dwivedi</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
