@@ -1,6 +1,6 @@
 # Precomputed BEIR Embeddings: BGE-Large & E5-Large
 
-![Alternative Text for Image](./images/color_logo_transparent_cropped.png)
+![Alternative Text for Image](./images/beir.png)
 
 
 <p align="center">
