@@ -28,11 +28,15 @@
 
 ## 📦 What is it?
 
-This repository provides **fully precomputed document embedding corpora** for **27 retrieval collections** from the BEIR benchmark (15 standalone collections and the 12 sub-datasets of CQADupStack). 
+This repository provides **fully precomputed document embedding corpora** for **27 retrieval collections** from the BEIR benchmark (15 standalone collections and the 12 sub-datasets of CQADupStack), contributing back to the Information Retrieval (IR) community.
+
+<p align="center">
+  <img src="assets/banner.png" width="100%" alt="BEIR Precomputed Embeddings Banner">
+</p>
 
 Generating these embeddings from scratch requires significant compute time and infrastructure. To help researchers, developers, and practitioners bypass this overhead, we are releasing the complete collection-specific representations generated using state-of-the-art dense models:
-- **BGE-Large** (`BAAI/bge-large-en-v1.5`)
-- **E5-Large** (`intfloat/e5-large-v2`)
+* **BGE-Large** (`BAAI/bge-large-en-v1.5`)
+* **E5-Large** (`intfloat/e5-large-v2`)
 
 These embeddings are tailored for tasks like constructing retrieval neighborhoods, evaluating representation spaces, late-interaction indexing, and semantic cohesion analyses.
 
