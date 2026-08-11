@@ -66,7 +66,7 @@ print(f"Successfully loaded {len(corpus_ids)} documents.")
 print(f"Embedding matrix shape: {corpus_embeddings.shape}")
 ```
 
-📦 Available Embedding Corpora
+## 📦 Available Embedding Corpora
 
 The table below outlines the 27 BEIR collections for which both BGE-Large and E5-Large document embedding matrices are provided.
 
@@ -91,7 +91,7 @@ The table below outlines the 27 BEIR collections for which both BGE-Large and E5
 | CQADupStack (12 subsets) | `cqadupstack` | Subsets (Android, English, etc.) | 457K total | [Download](url-to-bge) | [Download](url-to-e5) |
 
 
-📦 Citing
+## 📦 Citing
 
 If you use these precomputed embeddings or reference our methodology, please cite the official BEIR benchmark paper:
 
@@ -113,7 +113,7 @@ If you use these precomputed embeddings or reference our methodology, please cit
 3. Replace `"your-username/beir-precomputed-embeddings"` in the Python snippet with your actual repository ID!
 
 
-### Collaboration
+## Collaboration
 The BEIR Benchmark has been made possible due to a collaborative effort of the following universities and organizations:
 
 ![Alternative Text for Image](./images/National-Institute-of-Standards-and-Technology-nist.jpg)
@@ -122,7 +122,7 @@ The BEIR Benchmark has been made possible due to a collaborative effort of the f
 ![Alternative Text for Image](./images/Buffalo.jpg)
 
 
-### Contributors
+## Contributors
 
 Thanks go to all these wonderful collaborations for their contribution towards the BEIR benchmark precomputed embeddings:
 
