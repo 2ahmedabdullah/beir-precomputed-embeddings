@@ -94,7 +94,7 @@ The table below outlines the 27 BEIR collections for which both BGE-Large and E5
 
 ## 📦 Citing
 
-If you use these precomputed embeddings or reference our methodology, please cite the official BEIR benchmark paper:
+Citing the official BEIR benchmark paper:
 
 ```
 @inproceedings{
