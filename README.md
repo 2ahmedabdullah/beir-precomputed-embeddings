@@ -124,7 +124,7 @@ The BEIR Benchmark has been made possible due to a collaborative effort of the f
 
 ### Contributors
 
-Thanks go to all these wonderful collaborations for their contribution towards the BEIR benchmark:
+Thanks go to all these wonderful collaborations for their contribution towards the BEIR benchmark precomputed embeddings:
 
 <table>
   <tr>
