@@ -93,13 +93,12 @@ The table below outlines the 27 BEIR collections for which both BGE-Large and E5
 
 ## ⚠️ Note on NIST Collections (Robust04 & TREC-NEWS)
 
-Due to redistribution restrictions, precomputed embeddings for the NIST-backed collections (**Robust04** and **TREC-NEWS**) are not included in this repository. 
+Due to data licensing and redistribution restrictions, precomputed embeddings for the NIST-backed collections (**Robust04** and **TREC-NEWS**) cannot be hosted directly in this repository. 
 
-If you need the precomputed representations for these collections, you must obtain the official source data and legal agreements directly from **NIST (National Institute of Standards and Technology)**:
-* **Robust04:** Available via NIST TREC data requests (Disk 4/5).
-* **TREC-NEWS:** Available via the TREC News Track distribution guidelines.
+However, the author has shared these embeddings directly with **NIST**. Researchers and practitioners can obtain them through official NIST channels upon completing a signed data agreement. 
 
-Once you have lawful access to the source text, you can generate the embeddings locally using the `extract_embeddings.py` script provided in this repository.
+Alternatively, if you manage to acquire the lawful source data independently, you can generate the embeddings yourself using the `extract_embeddings.py` script provided in this repository.
+
 
 ## 📦 Citing
 
