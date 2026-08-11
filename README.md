@@ -73,10 +73,9 @@ The table below outlines the 27 BEIR collections for which both BGE-Large and E5
 
 | Collection Name | BEIR Identifier | Type | Document Count | BGE-Large Link | E5-Large Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MS MARCO | `msmarco` | Standalone | 8.84M | [Download](url-to-bge) | [Download](url-to-e5) |
 | TREC-COVID | `trec-covid` | Standalone | 171K | [Download](url-to-bge) | [Download](url-to-e5) |
 | NFCorpus | `nfcorpus` | Standalone | 3.6K | [Download](url-to-bge) | [Download](url-to-e5) |
-| Natural Questions | `nq` | Standalone | 2.68M | [Download](url-to-bge) | [Download](url-to-e5) |
+| NQ | `nq` | Standalone | 2.68M | [Download](url-to-bge) | [Download](url-to-e5) |
 | HotpotQA | `hotpotqa` | Standalone | 5.23M | [Download](url-to-bge) | [Download](url-to-e5) |
 | FiQA-2018 | `fiqa` | Standalone | 57K | [Download](url-to-bge) | [Download](url-to-e5) |
 | TREC-NEWS | `trec-news` | Standalone (NIST) | 595K | [Download](url-to-bge) | [Download](url-to-e5) |
@@ -84,9 +83,10 @@ The table below outlines the 27 BEIR collections for which both BGE-Large and E5
 | ArguAna | `arguana` | Standalone | 8.67K | [Download](url-to-bge) | [Download](url-to-e5) |
 | Touche-2020 | `webis-touche2020` | Standalone | 382K | [Download](url-to-bge) | [Download](url-to-e5) |
 | Quora | `quora` | Standalone | 523K | [Download](url-to-bge) | [Download](url-to-e5) |
-| DBpedia-Entity | `dbpedia-entity` | Standalone | 4.63M | [Download](url-to-bge) | [Download](url-to-e5) |
+| DBpedia | `dbpedia-entity` | Standalone | 4.63M | [Download](url-to-bge) | [Download](url-to-e5) |
 | SCIDOCS | `scidocs` | Standalone | 25K | [Download](url-to-bge) | [Download](url-to-e5) |
 | FEVER | `fever` | Standalone | 5.42M | [Download](url-to-bge) | [Download](url-to-e5) |
+| Climate-FEVER | `climate-fever` | Standalone | 5.42M | [Download](url-to-bge) | [Download](url-to-e5) |
 | SciFact | `scifact` | Standalone | 5K | [Download](url-to-bge) | [Download](url-to-e5) |
 | CQADupStack (12 subsets) | `cqadupstack` | Subsets (Android, English, etc.) | 457K total | [Download](url-to-bge) | [Download](url-to-e5) |
 
