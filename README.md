@@ -30,7 +30,7 @@
 
 This repository provides fully precomputed document embedding corpora for 27 retrieval collections from the BEIR benchmark (15 standalone collections and the 12 sub-datasets of CQADupStack), contributing back to the Information Retrieval (IR) community.
 
-Generating these embeddings from scratch requires significant compute time and infrastructure. To help researchers, developers, and practitioners bypass this overhead, we are releasing the complete collection-specific representations generated using state-of-the-art dense models:
+Generating these embeddings from scratch requires significant compute time and infrastructure. To help researchers, developers, and practitioners bypass this overhead, we are releasing the complete collection-specific representations generated using available models:
 
 * BGE-Large (BAAI/bge-large-en-v1.5)
 * E5-Large (intfloat/e5-large-v2)
@@ -117,8 +117,8 @@ Citing the official BEIR benchmark paper:
 ```
 
 ### Next Steps to Launch:
-1. Create a repository on Hugging Face (e.g., `your-username/beir-precomputed-embeddings`) or GitHub.
-2. Upload your `corpus_ids.json` and `corpus_embeddings.npy` files into folders matching the structure (`bge-large/<dataset>/` and `e5-large/<dataset>/`).
+1. Create a dataset or model repository on Hugging Face (e.g., `your-username/beir-precomputed-embeddings`). *Note: Hugging Face "Datasets" repositories are usually ideal for large binary/array files.*
+2. Upload your `corpus_embeddings.pkl` files into folders matching the exact directory structure expected by the code (`bge-large/<dataset>/corpus_embeddings.pkl` and `e5-large/<dataset>/corpus_embeddings.pkl`).
 3. Replace `"your-username/beir-precomputed-embeddings"` in the Python snippet with your actual repository ID!
 
 
