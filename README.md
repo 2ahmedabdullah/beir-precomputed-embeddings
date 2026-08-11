@@ -121,6 +121,7 @@ The BEIR Benchmark has been made possible due to a collaborative effort of the f
 
 ![Alternative Text for Image](./images/Buffalo.jpg)
 
+
 ### Contributors
 
 Thanks go to all these wonderful collaborations for their contribution towards the BEIR benchmark:
@@ -134,7 +135,6 @@ Thanks go to all these wonderful collaborations for their contribution towards t
         <sub><b>Abdul Ahmed</b></sub>
       </a>
     </td>
-
     <td align="center">
       <a href="https://www.linkedin.com/in/madhukar-dwivedi-42748b145/">
         <img src="./images/madhukar.jpeg" width="200px" alt="Madhukar"/>
