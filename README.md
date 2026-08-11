@@ -79,8 +79,8 @@ The table below outlines the 27 BEIR collections for which both BGE-Large and E5
 | NQ | `nq` | Standalone | 2.68M | [Download](url-to-bge) | [Download](url-to-e5) |
 | HotpotQA | `hotpotqa` | Standalone | 5.23M | [Download](url-to-bge) | [Download](url-to-e5) |
 | FiQA-2018 | `fiqa` | Standalone | 57K | [Download](url-to-bge) | [Download](url-to-e5) |
-| TREC-NEWS | `trec-news` | Standalone (NIST) | 595K | ❌ [How to Obtain](url-to-nist)| ❌ [How to Obtain](url-to-nist)|
-| Robust04 | `robust04` | Standalone (NIST) | 528K | ❌ [How to Obtain](url-to-nist)| ❌ [How to Obtain](url-to-nist)|
+| TREC-NEWS | `trec-news` | Standalone (NIST) | 595K | ❌ [How to Obtain?](url-to-nist)| ❌ [How to Obtain?](url-to-nist)|
+| Robust04 | `robust04` | Standalone (NIST) | 528K | ❌ [How to Obtain?](url-to-nist)| ❌ [How to Obtain?](url-to-nist)|
 | ArguAna | `arguana` | Standalone | 8.67K | [Download](url-to-bge) | [Download](url-to-e5) |
 | Touche-2020 | `webis-touche2020` | Standalone | 382K | [Download](url-to-bge) | [Download](url-to-e5) |
 | Quora | `quora` | Standalone | 523K | [Download](url-to-bge) | [Download](url-to-e5) |
@@ -91,6 +91,15 @@ The table below outlines the 27 BEIR collections for which both BGE-Large and E5
 | SciFact | `scifact` | Standalone | 5K | [Download](url-to-bge) | [Download](url-to-e5) |
 | CQADupStack (12 subsets) | `cqadupstack` | Subsets (Android, English, etc.) | 457K total | [Download](url-to-bge) | [Download](url-to-e5) |
 
+## ⚠️ Note on NIST Collections (Robust04 & TREC-NEWS)
+
+Due to redistribution restrictions, precomputed embeddings for the NIST-backed collections (**Robust04** and **TREC-NEWS**) are not included in this repository. 
+
+If you need the precomputed representations for these collections, you must obtain the official source data and legal agreements directly from **NIST (National Institute of Standards and Technology)**:
+* **Robust04:** Available via NIST TREC data requests (Disk 4/5).
+* **TREC-NEWS:** Available via the TREC News Track distribution guidelines.
+
+Once you have lawful access to the source text, you can generate the embeddings locally using the `extract_embeddings.py` script provided in this repository.
 
 ## 📦 Citing
 
