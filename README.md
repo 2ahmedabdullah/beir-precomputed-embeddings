@@ -78,8 +78,8 @@ The table below outlines the 27 BEIR collections for which both BGE-Large and E5
 | NQ | `nq` | Standalone | 2.68M | [Download](url-to-bge) | [Download](url-to-e5) |
 | HotpotQA | `hotpotqa` | Standalone | 5.23M | [Download](url-to-bge) | [Download](url-to-e5) |
 | FiQA-2018 | `fiqa` | Standalone | 57K | [Download](url-to-bge) | [Download](url-to-e5) |
-| TREC-NEWS | `trec-news` | Standalone (NIST) | 595K | [Download](url-to-bge) | [Download](url-to-e5) |
-| Robust04 | `robust04` | Standalone (NIST) | 528K | [Download](url-to-bge) | [Download](url-to-e5) |
+| TREC-NEWS | `trec-news` | Standalone (NIST) | 595K | ❌ | ❌ |
+| Robust04 | `robust04` | Standalone (NIST) | 528K | ❌ | ❌ |
 | ArguAna | `arguana` | Standalone | 8.67K | [Download](url-to-bge) | [Download](url-to-e5) |
 | Touche-2020 | `webis-touche2020` | Standalone | 382K | [Download](url-to-bge) | [Download](url-to-e5) |
 | Quora | `quora` | Standalone | 523K | [Download](url-to-bge) | [Download](url-to-e5) |
