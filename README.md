@@ -137,7 +137,7 @@ Thanks go to all these wonderful collaborations for their contribution towards t
     </td>
     <td align="center">
       <a href="https://www.linkedin.com/in/madhukar-dwivedi-42748b145/">
-        <img src="./images/madhukar.jpeg" width="200px" height="200px" alt="Madhukar"/>
+        <img src="./images/madhukar.jpeg" width="200px" alt="Madhukar"/>
         <br />
         <sub><b>Madhukar Dwivedi</b></sub>
       </a>
