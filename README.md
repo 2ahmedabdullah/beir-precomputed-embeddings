@@ -115,7 +115,7 @@ Citing the official BEIR benchmark paper:
 
 
 ## Collaboration
-The BEIR Benchmark has been made possible due to a collaborative effort of the following universities and organizations:
+The BEIR Benchmark Embeddings has been made possible due to a collaborative effort of the following universities and organizations:
 
 ![Alternative Text for Image](./images/National-Institute-of-Standards-and-Technology-nist.jpg)
 
