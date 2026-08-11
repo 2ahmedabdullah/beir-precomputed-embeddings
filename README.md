@@ -117,6 +117,8 @@ If you use these precomputed embeddings or reference our methodology, please cit
 The BEIR Benchmark has been made possible due to a collaborative effort of the following universities and organizations:
 
 ![Alternative Text for Image](./images/National-Institute-of-Standards-and-Technology-nist.jpg)
+
+
 ![Alternative Text for Image](./images/Buffalo.jpg)
 
 ### Contributors
@@ -127,7 +129,7 @@ Thanks go to all these wonderful collaborations for their contribution towards t
   <tr>
     <td align="center">
       <a href="https://github.com/2ahmedabdullah">
-        <img src="./images/abdul.jpeg" width="120px" alt="Abdul"/>
+        <img src="./images/abdul.jpeg" width="200px" alt="Abdul"/>
         <br />
         <sub><b>Abdul Ahmed</b></sub>
       </a>
@@ -135,7 +137,7 @@ Thanks go to all these wonderful collaborations for their contribution towards t
 
     <td align="center">
       <a href="https://www.linkedin.com/in/madhukar-dwivedi-42748b145/">
-        <img src="./images/madhukar.jpeg" width="120px" alt="Madhukar"/>
+        <img src="./images/madhukar.jpeg" width="200px" alt="Madhukar"/>
         <br />
         <sub><b>Madhukar Dwivedi</b></sub>
       </a>
