@@ -133,9 +133,8 @@ Thanks go to all these wonderful collaborations for their contribution towards t
       </a>
     </td>
 
-   
     <td align="center">
-      <a href="https://github.com/david">
+      <a href="https://github.com/YOUR_GITHUB_USERNAME">
         <img src="./images/madhukar.jpeg" width="120px;" alt="Madhukar"/>
         <br />
         <sub><b>Madhukar Dwivedi</b></sub>
