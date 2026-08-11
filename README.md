@@ -127,7 +127,7 @@ Thanks go to all these wonderful collaborations for their contribution towards t
   <tr>
     <td align="center">
       <a href="https://github.com/2ahmedabdullah">
-        <img src="./images/abdul.jpeg" width="120px;" alt="Abdul"/>
+        <img src="./images/abdul.jpeg" width="120px" alt="Abdul"/>
         <br />
         <sub><b>Abdul Ahmed</b></sub>
       </a>
@@ -135,7 +135,7 @@ Thanks go to all these wonderful collaborations for their contribution towards t
 
     <td align="center">
       <a href="https://github.com/YOUR_GITHUB_USERNAME">
-        <img src="./images/madhukar.jpeg" width="120px;" alt="Madhukar"/>
+        <img src="./images/madhukar.jpeg" width="120px" alt="Madhukar"/>
         <br />
         <sub><b>Madhukar Dwivedi</b></sub>
       </a>
