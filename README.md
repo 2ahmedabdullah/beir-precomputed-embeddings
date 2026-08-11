@@ -117,7 +117,7 @@ If you use these precomputed embeddings or reference our methodology, please cit
 The BEIR Benchmark has been made possible due to a collaborative effort of the following universities and organizations:
 
 ![Alternative Text for Image](./images/National-Institute-of-Standards-and-Technology-nist.jpg)
-![Alternative Text for Image](./images/University_at_Buffalo_logo.png)
+![Alternative Text for Image](./images/Buffalo.jpg)
 
 ### Contributors
 
