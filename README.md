@@ -72,22 +72,26 @@ print(f"Embedding matrix shape: {corpus_embeddings.shape}")
 The table below outlines the 25 (13 + 12 subset) BEIR collections for which both BGE-Large and E5-Large document embedding matrices are provided.
 
 
+# BEIR Precomputed Embeddings
+
+Precomputed corpus embeddings for evaluation on the BEIR benchmark.
+
 | Collection Name | BEIR Identifier | Type | Document Count | BGE-Large Link | E5-Large Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| TREC-COVID | `trec-covid` | Standalone | 171K | [Download](url-to-bge) | [Download](url-to-e5) |
-| NFCorpus | `nfcorpus` | Standalone | 3.6K | [Download](url-to-bge) | [Download](url-to-e5) |
-| NQ | `nq` | Standalone | 2.68M | [Download](url-to-bge) | [Download](url-to-e5) |
-| HotpotQA | `hotpotqa` | Standalone | 5.23M | [Download](url-to-bge) | [Download](url-to-e5) |
-| FiQA-2018 | `fiqa` | Standalone | 57K | [Download](url-to-bge) | [Download](url-to-e5) |
-| ArguAna | `arguana` | Standalone | 8.67K | [Download](url-to-bge) | [Download](url-to-e5) |
-| Touche-2020 | `webis-touche2020` | Standalone | 382K | [Download](url-to-bge) | [Download](url-to-e5) |
-| Quora | `quora` | Standalone | 523K | [Download](url-to-bge) | [Download](url-to-e5) |
-| DBpedia | `dbpedia-entity` | Standalone | 4.63M | [Download](url-to-bge) | [Download](url-to-e5) |
-| SCIDOCS | `scidocs` | Standalone | 25K | [Download](url-to-bge) | [Download](url-to-e5) |
-| FEVER | `fever` | Standalone | 5.42M | [Download](url-to-bge) | [Download](url-to-e5) |
-| Climate-FEVER | `climate-fever` | Standalone | 5.42M | [Download](url-to-bge) | [Download](url-to-e5) |
-| SciFact | `scifact` | Standalone | 5K | [Download](url-to-bge) | [Download](url-to-e5) |
-| CQADupStack (12 subsets) | `cqadupstack` | Subsets (Android, English, etc.) | 457K total | [Download](url-to-bge) | [Download](url-to-e5) |
+| TREC-COVID | `trec-covid` | Standalone | 171K | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/bge-large/trec-covid/trec_covid_corpus_embeddings_bge_large.pkl) | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/e5-large/trec-covid/trec_covid_corpus_embeddings_e5_large.pkl) |
+| NFCorpus | `nfcorpus` | Standalone | 3.6K | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/bge-large/nfcorpus/nfcorpus_corpus_embeddings_bge_large.pkl) | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/e5-large/nfcorpus/nfcorpus_corpus_embeddings_e5_large.pkl) |
+| NQ | `nq` | Standalone | 2.68M | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/bge-large/nq/nq_corpus_embeddings_bge_large.pkl) | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/e5-large/nq/nq_corpus_embeddings_e5_large.pkl) |
+| HotpotQA | `hotpotqa` | Standalone | 5.23M | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/bge-large/hotpotqa/hotpotqa_corpus_embeddings_bge_large.pkl) | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/e5-large/hotpotqa/hotpotqa_corpus_embeddings_e5_large.pkl) |
+| FiQA-2018 | `fiqa` | Standalone | 57K | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/bge-large/fiqa/fiqa_corpus_embeddings_bge_large.pkl) | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/e5-large/fiqa/fiqa_corpus_embeddings_e5_large.pkl) |
+| ArguAna | `arguana` | Standalone | 8.67K | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/bge-large/arguana/arguana_corpus_embeddings_bge_large.pkl) | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/e5-large/arguana/arguana_corpus_embeddings_e5_large.pkl) |
+| Touche-2020 | `webis-touche2020` | Standalone | 382K | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/bge-large/webis-touche2020/webis-touche2020_corpus_embeddings_bge_large.pkl) | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/e5-large/webis-touche2020/webis-touche2020_corpus_embeddings_e5_large.pkl) |
+| Quora | `quora` | Standalone | 523K | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/bge-large/quora/quora_corpus_embeddings_bge_large.pkl) | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/e5-large/quora/quora_corpus_embeddings_e5_large.pkl) |
+| DBpedia | `dbpedia-entity` | Standalone | 4.63M | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/bge-large/dbpedia-entity/dbpedia-entity_corpus_embeddings_bge_large.pkl) | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/e5-large/dbpedia-entity/dbpedia-entity_corpus_embeddings_e5_large.pkl) |
+| SCIDOCS | `scidocs` | Standalone | 25K | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/bge-large/scidocs/scidocs_corpus_embeddings_bge_large.pkl) | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/e5-large/scidocs/scidocs_corpus_embeddings_e5_large.pkl) |
+| FEVER | `fever` | Standalone | 5.42M | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/bge-large/fever/fever_corpus_embeddings_bge_large.pkl) | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/e5-large/fever/fever_corpus_embeddings_e5_large.pkl) |
+| Climate-FEVER | `climate-fever` | Standalone | 5.42M | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/bge-large/climate-fever/climate-fever_corpus_embeddings_bge_large.pkl) | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/e5-large/climate-fever/climate-fever_corpus_embeddings_e5_large.pkl) |
+| SciFact | `scifact` | Standalone | 5K | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/bge-large/scifact/scifact_corpus_embeddings_bge_large.pkl) | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/e5-large/scifact/scifact_corpus_embeddings_e5_large.pkl) |
+| CQADupStack | `cqadupstack` | Subsets | 457K total | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/bge-large/cqadupstack/cqadupstack_corpus_embeddings_bge_large.pkl) | [Download](https://huggingface.co/datasets/2ahmedabdullah/beir-precomputed-embeddings/resolve/main/e5-large/cqadupstack/cqadupstack_corpus_embeddings_e5_large.pkl) |
 
 
 ## 📦 Citing
