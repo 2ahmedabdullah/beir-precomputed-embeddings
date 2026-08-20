@@ -28,7 +28,7 @@
 
 ## 📦 What is it?
 
-This repository provides fully precomputed document embedding corpora for 27 retrieval collections from the BEIR benchmark (15 standalone collections and the 12 sub-datasets of CQADupStack), contributing back to the Information Retrieval (IR) community.
+This repository provides fully precomputed document embedding corpora for 25 retrieval collections from the BEIR benchmark (13 standalone collections and the 12 sub-datasets of CQADupStack), contributing back to the Information Retrieval (IR) community.
 
 Generating these embeddings from scratch requires significant compute time and infrastructure. To help researchers, developers, and practitioners bypass this overhead, we are releasing the complete collection-specific representations generated using available models:
 
@@ -79,8 +79,6 @@ The table below outlines the 27 BEIR collections for which both BGE-Large and E5
 | NQ | `nq` | Standalone | 2.68M | [Download](url-to-bge) | [Download](url-to-e5) |
 | HotpotQA | `hotpotqa` | Standalone | 5.23M | [Download](url-to-bge) | [Download](url-to-e5) |
 | FiQA-2018 | `fiqa` | Standalone | 57K | [Download](url-to-bge) | [Download](url-to-e5) |
-| TREC-NEWS | `trec-news` | Standalone (NIST) | 595K | ❌ [How to Obtain?](url-to-nist)| ❌ [How to Obtain?](url-to-nist)|
-| Robust04 | `robust04` | Standalone (NIST) | 528K | ❌ [How to Obtain?](url-to-nist)| ❌ [How to Obtain?](url-to-nist)|
 | ArguAna | `arguana` | Standalone | 8.67K | [Download](url-to-bge) | [Download](url-to-e5) |
 | Touche-2020 | `webis-touche2020` | Standalone | 382K | [Download](url-to-bge) | [Download](url-to-e5) |
 | Quora | `quora` | Standalone | 523K | [Download](url-to-bge) | [Download](url-to-e5) |
@@ -90,14 +88,6 @@ The table below outlines the 27 BEIR collections for which both BGE-Large and E5
 | Climate-FEVER | `climate-fever` | Standalone | 5.42M | [Download](url-to-bge) | [Download](url-to-e5) |
 | SciFact | `scifact` | Standalone | 5K | [Download](url-to-bge) | [Download](url-to-e5) |
 | CQADupStack (12 subsets) | `cqadupstack` | Subsets (Android, English, etc.) | 457K total | [Download](url-to-bge) | [Download](url-to-e5) |
-
-## ⚠️ Note on NIST Collections (Robust04 & TREC-NEWS)
-
-Due to data licensing and redistribution restrictions, precomputed embeddings for the NIST-backed collections (**Robust04** and **TREC-NEWS**) cannot be hosted directly in this repository. 
-
-However, the author has shared these embeddings directly with **NIST**. Researchers and practitioners can obtain them through official NIST channels upon completing a signed data agreement. 
-
-Alternatively, if you manage to acquire the lawful source data independently, you can generate the embeddings yourself using the `extract_embeddings.py` script provided in this repository.
 
 
 ## 📦 Citing

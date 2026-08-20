@@ -6,6 +6,7 @@ import random
 import pickle
 import torch
 from sentence_transformers import SentenceTransformer
+import sys
 
 # =====================================================================
 # CONFIGURATION
@@ -18,20 +19,27 @@ DATASETS = ["trec_covid", "nfcorpus", "webis_touche", "scifact", "fiqa", "scidoc
 # MODEL_NAME = "BAAI/bge-large-en-v1.5"
 MODEL_NAME = "intfloat/e5-large-v2"
 
-# BASE_EXPORT_DIR = "./exports_bge"
-BASE_EXPORT_DIR = "./exports_e5"
+
+if MODEL_NAME == "BAAI/bge-large-en-v1.5":
+    BASE_EXPORT_DIR = "./exports_bge"
+elif MODEL_NAME == "intfloat/e5-large-v2":
+    BASE_EXPORT_DIR = "./exports_e5"
+else:
+    sys.exit(f"Error: Unsupported MODEL_NAME '{MODEL_NAME}'. Stopping script.")
+
+
 
 TOP_K = 1000            # Top-K candidate set size per query
 NUM_QUERIES = None      # Number of random queries to sample from dataset
 SEED = 111
 BATCH_SIZE = 32         # depending upon the VRAM or laptop configurations
-
+datasets_path = "datasets"  # beir downloaded path
 
 # =====================================================================
 # DATASET LOADER FUNCTION
 # =====================================================================
 def load_local_dataset(dataset_name: str) -> tuple:
-    data_path = f"./datasets/{dataset_name}"
+    data_path = f"./{datasets_path}/{dataset_name}"
     corpus_file = os.path.join(data_path, "corpus.jsonl")
     queries_file = os.path.join(data_path, "queries.jsonl")
     
