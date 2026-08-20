@@ -69,7 +69,7 @@ print(f"Embedding matrix shape: {corpus_embeddings.shape}")
 
 ## 📦 Available Embedding Corpora
 
-The table below outlines the 27 BEIR collections for which both BGE-Large and E5-Large document embedding matrices are provided.
+The table below outlines the 25 (13 + 12 subset) BEIR collections for which both BGE-Large and E5-Large document embedding matrices are provided.
 
 
 | Collection Name | BEIR Identifier | Type | Document Count | BGE-Large Link | E5-Large Link |
