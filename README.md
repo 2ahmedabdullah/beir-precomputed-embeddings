@@ -147,9 +147,6 @@ The BEIR Benchmark Embeddings has been made possible due to a collaborative effo
 ![Alternative Text for Image](./images/National-Institute-of-Standards-and-Technology-nist.jpg)
 
 
-<img src="./images/buffalo.png" width="57%" height = "150%" alt="Alternative Text for Image">
-
-
 ## Contributors
 
 Thanks to all these wonderful collaborations for their contribution towards the BEIR benchmark precomputed embeddings:
