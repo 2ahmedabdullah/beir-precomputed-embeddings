@@ -34,6 +34,13 @@ Submitted Paper Link
 https://drive.google.com/file/d/1Ir8GPPEVvizqn7dD2gL9bqh48sz6FiOX/view?usp=drive_link
 
 
+![Alternative Text for Image](./images/sub1.jpeg)
+
+![Alternative Text for Image](./images/sub2.jpeg)
+
+![Alternative Text for Image](./images/sub3.jpeg)
+
+
 ## 📦 What is it?
 
 This repository provides fully precomputed document embedding corpora for 25 retrieval collections from the BEIR benchmark (13 standalone collections and the 12 sub-datasets of CQADupStack), contributing back to the Information Retrieval (IR) community.
