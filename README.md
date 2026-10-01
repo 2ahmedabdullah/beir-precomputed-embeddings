@@ -29,9 +29,9 @@
 
 Coherence measures summarise a dense retrieval neighbourhood by the density of a document--document similarity graph over the top-ranked results. Building that graph requires a distance threshold, which prior work fixes to a constant or to a per-query adaptive rule. We show that this threshold is not portable between encoders, because encoders do not share a distance scale. Across five dense encoders and 20 BEIR collections, the median neighbourhood distance varies by a factor of $2.71$, and the threshold that maximises a collection-level signal ranges from $0.05$ to $0.30$ depending on the model. Copying a threshold between encoders recovers on average $71\%$ of the achievable signal, and as little as $7\%$ in the worst case, because the copied value can land where the target encoder's density curve has saturated and the descriptor is nearly constant across collections. We introduce the \emph{neighbourhood expansion ratio}, which compares distance quantiles at two retrieval depths and analytically cancels a multiplicative encoder-specific scale. Across all ten encoder pairs it attains mean Spearman agreement of $0.827$, against $0.485$ for the corresponding absolute descriptor, $0.577$ for an additive variant, and $0.090$ for the mean-thresholding rule of prior work; a paired bootstrap over collections gives a mean improvement of $0.342$ over the absolute descriptor ($95\%$ CI $[0.050,0.626]$). The descriptor is also consistent at the level of individual queries: over $26{,}890$ queries, within-collection agreement between encoders has a median Spearman $\rho$ of $0.52$, with $171$ of $200$ collection--pair comparisons exceeding $0.30$. Collection-level summaries built from the descriptor are correspondingly stable: all five encoders separate the same four collections from a common 16-collection core (mean adjusted Rand index $0.986$ at fixed $k$). We recommend reporting coherence results as threshold sweeps rather than at a single operating point, and using scale-free formulations when descriptors are compared across encoders.
 
-Submitted Paper Link
+Submitted Paper Link (Open Review)
 
-https://drive.google.com/file/d/1Ir8GPPEVvizqn7dD2gL9bqh48sz6FiOX/view?usp=drive_link
+https://openreview.net/login?redirect=/forum?id%3Dbm9NlCvRP9
 
 
 ![Alternative Text for Image](./images/sub1.jpeg)
